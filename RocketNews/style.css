@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Work+Sans:wght@400;500;700&display=swap');
+:root {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #121214;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+body{
+  margin: 3rem;
+}
+.infos h1{
+  font-family: 'Work Sans', sans-serif;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 28px;
+  line-height: 100%;
+  color: #08C05E;
+}
+.infos b{
+  font-family: 'League Spartan', sans-serif;
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 16px;
+  line-height: 100%;
+}
+.infos p{
+  font-family: 'League Spartan', sans-serif;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 19px;
+  line-height: 123.87%;
+}
+.form{
+  display: flex;
+  align-items: center;
+  height: 8rem;
+  width: 60rem;
+}
+form{
+  display: flex;
+}
+.ireadfirst{
+  display: flex;
+  align-items: center;
+  color: #8257E5;
+  font-family: 'League Spartan', sans-serif;
+  font-style: Bold;
+  font-size: 19px;
+}
+.bordereffect{
+  width: 0.313rem;
+  height: 3.12rem;
+  background-color: #08C05E;
+  position: relative;
+  right: 6.5rem;
+}
+form label{
+  font-family: 'League Spartan', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 138.73%;
+  color: #A8A8A8;
+  position: relative;
+  bottom: 2rem;
+}
+input[type="text"]{
+  height: 3rem;
+  width: 46.875rem;
+  border: 0;
+  position: relative;
+  right: 6.5rem;
+}
+input[type="text"]:focus
+{
+    outline-offset: 0px;
+    outline: none;
+}
+form button {
+  display: flex;
+  width: 3rem;
+  height: 3.12rem;
+  background-color: #8257E5;
+  align-items: center;
+  border: 0;
+  position: relative;
+  right: 6.5rem;
+}
+form button img{
+  position: relative;
+  left: 0.3rem;
+}
+.multi-bg-example {
+  position: absolute;
+  left: 49rem;
+  top: 0;
+}
+.multi-bg-example img{
+  height: 38.34rem;
+}
+@media only screen and (min-width: 1400px){
+  .infos h1{
+    font-size: 28px;
+  }
+  .infos p{
+    font-size: 18px;
+  }
+  .infos b{
+    font-size: 18px;
+  }
+  form label{
+    font-size: 18px;
+    width: 10rem;
+  }
+  input[type="text"]{
+    height: 5rem;
+    width: 70rem;
+    right: 10rem;
+  }
+  form button{
+    width: 5rem;
+    height: 5.13rem;
+    right: 10rem;
+  }
+  .multi-bg-example {
+    position: absolute;
+    left: 65rem;
+    top: 0;
+  }
+  form button img{
+    left: 0.8rem;
+    width: 2rem;
+  }
+  .multi-bg-example img{
+    height: 57.8rem;
+  }
+  .bordereffect{
+    width: 0.313rem;
+    right: 10rem;
+    height: 5.13rem;
+  }
+}

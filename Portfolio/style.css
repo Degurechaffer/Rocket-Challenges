@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&display=swap');
+:root {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #22212C;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  margin: 2rem;
+}
+section{
+  width: 100vw;
+  height: 105rem;
+}
+.app{
+  box-shadow: 3px 1px 1px rgba(0, 0, 0, 0.295);
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  border-radius: 20px;
+  background-color: #302F3D;
+}
+.title{
+  box-shadow: 3px 1px 1px rgba(0, 0, 0, 0.295);
+  width: 57rem;
+  height: 5rem;
+  display: flex;
+  border-radius: 20px;
+  position: relative;
+  left: 23rem;
+  bottom: 20rem;
+  background-color: #302F3D;
+}
+.title1{
+  box-shadow: 3px 1px 1px rgba(0, 0, 0, 0.295);
+  width: 57rem;
+  height: 5rem;
+  display: flex;
+  border-radius: 20px;
+  position: relative;
+  left: 23rem;
+  bottom: 30rem;
+  background-color: #302F3D;
+}
+.posts{
+  box-shadow: 3px 1px 1px rgba(0, 0, 0, 0.295);
+  width: 57rem;
+  height: 12rem;
+  background-color: #302F3D;
+  display: flex;
+  border-radius: 20px;
+  position: relative;
+  left: 23rem;
+  bottom: 28rem;
+}
+.box1{
+  margin-top: 2rem;
+  margin-left: 3rem;
+  box-shadow: 3px 1px 1px rgba(0, 0, 0, 0.295);
+  width: 28.3rem;
+  height: 10rem;
+  display: flex;
+  background-color: #302F3D;
+  border-radius: 20px;
+  margin-right: 0rem;
+  position: relative;
+  bottom: 20rem;
+  left: 20rem;
+}
+.box2{
+  margin-top: 2rem;
+  box-shadow: 3px 1px 1px rgba(0, 0, 0, 0.295);
+  width: 28.3rem;
+  height: 10rem;
+  background-color: #302F3D;
+  display: flex;
+  border-radius: 20px;
+  position: relative;
+  bottom: 32.1rem;
+  left: 51.6rem;
+}
+.social{
+  margin-top: 2rem;
+  box-shadow: 3px 1px 1px rgba(0, 0, 0, 0.295);
+  width: 20rem;
+  height: 22rem;
+  display: flex;
+  background-color: #302F3D;
+  border-radius: 20px;
+  position: relative;
+  bottom: 46rem;
+}
+.tecno{
+  margin-top: 2rem;
+  box-shadow: 3px 1px 1px rgba(0, 0, 0, 0.295);
+  width: 20rem;
+  height: 12rem;
+  display: flex;
+  border-radius: 20px;
+  background-color: #302F3D;
+  position: relative;
+  bottom: 46rem;
+}
+.tecno{
+  margin-top: 2rem;
+  box-shadow: 3px 1px 1px rgba(0, 0, 0, 0.295);
+  width: 20rem;
+  height: 12rem;
+  display: flex;
+  border-radius: 20px;
+  background-color: #302F3D;
+  position: relative;
+  bottom: 46rem;
+}
+.app img{
+  width: 10rem;
+  height: 10rem;
+  border: 2px solid greenyellow;
+  border-radius: 100px;
+  margin: 2rem 5rem 1rem 5rem;
+}
+.nameP{
+  position: absolute;
+  width: 12.25rem;
+  height: 1.625rem;
+  left: 7.25rem;
+  top: 14.375rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 29px;
+  color: #837E9F;
+}
+.cargoP{
+  position: absolute;
+  width: 8rem;
+  height: 1.063rem;
+  left: 9.375rem;
+  top: 17rem;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #837E9F;
+}
+.title h1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #837E9F;
+  margin: 1.5rem;
+}
+.title1 h1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #837E9F;
+  margin: 1.5rem;
+}
+.education h1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #837E9F;
+  margin: 1.5rem;
+}
+.exp h1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #837E9F;
+  margin: 1.5rem;
+}
+.title p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #837E9F;
+  margin: 1.5rem;
+  padding-left: 40rem;
+  margin-right: 0;
+}
+.box1 img{
+  width: 1.2rem;
+  height: auto;
+  filter: invert(70%) sepia(2%) saturate(4517%) hue-rotate(209deg) brightness(73%) contrast(78%);
+}
+.box2 img{
+  width: 1.2rem;
+  height: auto;
+  filter: invert(70%) sepia(2%) saturate(4517%) hue-rotate(209deg) brightness(73%) contrast(78%);
+}
+.folder{
+  position: relative;
+  bottom: 3rem;
+  margin-left: 2rem;
+}
+.titleb{
+  position: absolute;
+  left: 3.5rem;
+  top: 0.3rem;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #837E9F;
+}
+.contentb{
+  position: absolute;
+  left: 3.5rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #837E9F;
+  top: 3rem;
+}
+.star{
+  position: absolute;
+  left: 2rem;
+  top: 8rem;
+}
+.branch{
+  position: absolute;
+  left: 6rem;
+  top: 8rem;
+}
+.number{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #837E9F;
+}
+.one{
+  position: absolute;
+  left: 3.5rem;
+  top: 7.2rem;
+}
+.two{
+  position: absolute;
+  left: 7.5rem;
+  top: 7.2rem;
+}
+.circlejs{
+  position: absolute;
+  left: 20rem;
+  top: 8rem;
+  background-color: #E7DE79;
+  border: 1px solid #837E9F;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 20px;
+}
+.type{
+  position: absolute;
+  left: 21.5rem;
+  top: 7.1rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #837E9F;
+}
+.posts img{
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+  position: absolute;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 100px;
+  border: 2px solid darkslategray;
+}
+.tilteP{
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #837E9F;
+  left: 13rem;
+  top: 1rem;
+}
+.dateP{
+  position: absolute;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #837E9F;
+  left: 13rem;
+  top: 3rem;
+}
+.secondtP{
+  position: absolute;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #837E9F;
+  left: 13rem;
+  top: 5.5rem;
+}
+.hashs{
+  position: absolute;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #837E9F;
+  left: 13rem;
+  top: 8rem;
+}
+.social p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #837E9F;
+  position: absolute;
+  padding-top: 0.5rem;
+  left: 4rem;
+}
+.social img{
+  width: 1.5rem;
+  margin: 1rem;
+  margin-left: 2rem;
+  filter: invert(70%) sepia(2%) saturate(4517%) hue-rotate(209deg) brightness(73%) contrast(78%);
+}
+.mapp{
+  position: absolute;
+}
+.brifp{
+  position: absolute;
+  top: 3rem;
+}
+.gitp{
+  position: absolute;
+  top: 6rem;
+}
+.instp{
+  position: absolute;
+  top: 9rem;
+}
+.twip{
+  position: absolute;
+  top: 12rem;
+}
+.globp{
+  position: absolute;
+  top: 15rem;
+}
+.mailp{
+  position: absolute;
+  top: 18rem;
+}
+.tecno h1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #837E9F;
+  margin: 2rem;
+}
+.tecno button{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  color: #000000;
+  background-color: #CB92B1;
+  height: 24px;
+  width: 86px;
+  border: 0;
+  border-radius: 20px;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.tjs{
+  position: absolute;
+  text-align: center;
+  top: 4rem;
+  left: 2rem;
+}
+.tre{
+  position: absolute;
+  text-align: center;
+  top: 4rem;
+  left: 7.5rem;
+}
+.tno{
+  position: absolute;
+  text-align: center;
+  top: 4rem;
+  left: 13rem;
+}
+.tgit{
+  position: absolute;
+  text-align: center;
+  top: 6rem;
+  left: 2rem;
+}
+.tgith{
+  position: absolute;
+  text-align: center;
+  top: 6rem;
+  left: 7.5rem;
+}
+.thtml{
+  position: absolute;
+  text-align: center;
+  top: 6rem;
+  left: 13rem;
+}
+.tcss{
+  position: absolute;
+  text-align: center;
+  top: 8rem;
+  left: 2rem;
+}
+.telixi{
+  position: absolute;
+  text-align: center;
+  top: 8rem;
+  left: 7.5rem;
+}
+.treactn{
+  position: absolute;
+  text-align: center;
+  top: 8rem;
+  left: 13rem;
+}
+.exp{
+  margin-top: 2rem;
+  box-shadow: 3px 1px 1px rgba(0, 0, 0, 0.295);
+  width: 20rem;
+  height: 22rem;
+  display: flex;
+  border-radius: 20px;
+  background-color: #302F3D;
+  position: relative;
+  bottom: 46rem;
+}
+.education{
+  margin-top: 2rem;
+  box-shadow: 3px 1px 1px rgba(0, 0, 0, 0.295);
+  width: 20rem;
+  height: 22rem;
+  display: flex;
+  border-radius: 20px;
+  background-color: #302F3D;
+  position: relative;
+  bottom: 46rem;
+}
+ul{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  color: #837E9F;
+  position: absolute;
+  top: 3rem;
+  right: 10.5rem;
+  width: 9rem;
+  left: 0.5rem;
+}
+ul li span{
+  font-weight: bold;
+  font-size: 15px;
+}
+ul li{
+  margin-top: 1rem;
+}
+@media only screen and (min-width: 1370px){
+  .title{
+    width: 90rem;
+  }
+  .title1{
+    width: 90rem;
+  }
+  .box1{
+    width: 44.5rem;
+  }
+  .posts{
+    width: 90rem;
+  }
+  .box2{
+    width: 44.5rem;
+    left: 68rem;
+  }
+  .circlejs{
+    left: 32rem;
+  }
+  .type{
+    left: 33.5rem;
+  }
+  .title p{
+    padding-left: 70rem;
+  }
+}

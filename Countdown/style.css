@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+:root {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+.top{
+  position: absolute;
+  width: 1366px;
+  height: 133px;
+  left: 0px;
+  top: 0px;
+}
+.bottom{
+  position: absolute;
+  width: 1366px;
+  height: 229px;
+  left: 0px;
+  top: 542px;
+}
+.rocket{
+  position: absolute;
+  left: 40rem;
+  top: 10rem;
+}
+.launch{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 0.105em;
+  text-transform: uppercase;
+  color: #6C63FF;
+}
+#timer{
+  position: relative;
+  width: 45em;
+  height: 172px;
+  left: 123px;
+  top: 187px;
+}
+
+#timer p{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: capitalize;
+  display: inline;
+}
+#day{
+  color: #C8C8C8;
+  margin-right: 2em;
+  margin-left: 2.5em;
+}
+#hours{
+  color: #C8C8C8;
+  margin-left: 3.5rem;
+  margin-right: 6.5em;
+}
+#mins{
+  color: #C8C8C8;
+  margin-right: 5em;
+}
+#seconds{
+  color: #C8C8C8;
+}
+#truetimer{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 108px;
+  color: #4D4C59;
+  position: relative;
+  bottom: 60px;
+}
+.subscribe{
+  position: relative;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #9C9AB6;
+  bottom: 5rem;
+  left: 5rem;
+}
+.buttonsub{
+  position: relative;
+  width: 160px;
+  height: 46px;
+  bottom: 5rem;
+  left: 10rem;
+  border-radius: 10px;
+  background-color: #6C63FF;
+  border: 0;
+  color: white;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.buttonsub:hover{
+  background-color: #281af3;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%; /* Could be more or less, depending on screen size */
+  border-radius: 10px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+button[type=submit] {
+  background-color: #6C63FF;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type=submit]:hover {
+  background-color: #281af3;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+}
+.modal-content h1{
+  color: #010011;
+}
+.modal-content p{
+  color: #010011;
+}

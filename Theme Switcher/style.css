@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.button {
+  width: 200px;
+  padding: 5px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  font-family: inherit;
+  cursor: pointer;
+  background-color: var(--bg-indigo);
+  color: var(--text-white);
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+#app{
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 235.38px;
+  height: 102px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  -webkit-transition: .4s;
+  transition: .4s;
+  background: black url("/assets/sun.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 94.15px;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  width: 86.31px;
+  height: 86.31px;
+  left: 10px;
+  bottom: 8px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+input:checked + .slider {
+  background: black url("/assets/moon.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 94.15px;
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px black;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(130px);
+  -ms-transform: translateX(130px);
+  transform: translateX(130px);
+}
+.slider.round {
+  border-radius: 50px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+#moon{
+  position: absolute;
+  width: 94.15px;
+  height: 94.15px;
+  top: 5px;
+}
+#sun{
+  position: absolute;
+  width: 94.15px;
+  height: 94.15px;
+  top: 5px;
+  left: 137px;
+}
+.dark-mode {
+  background-color: #292C35;
+  color: white;
+}

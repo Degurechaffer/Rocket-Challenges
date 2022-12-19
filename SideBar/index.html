@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="barside animate-left" id="mySidebar">
+      <div class="logo">
+        <img src="./public/images/logo.svg">
+        <button class="logobutton buttonmain" onclick="w3_close()"><img src="./public/images/menu.svg"></button>
+      </div>
+      <button id="" class="buttonopen active"><img src="./public/images/search.svg">Buscar</button>
+      <button id="" class="buttonopen"><img src="./public/images/grid.svg">Dashboard</button>
+      <button id="" class="buttonopen"><img src="./public/images/pet.svg">Pets</button>
+      <button id="" class="buttonopen"><img src="./public/images/user.svg">Clientes</button>
+      <button id="" class="buttonopen"><img src="./public/images/vet.svg">Vets</button>
+      <button id="" class="buttonopen"><img src="./public/images/settings.svg">Ajustes</button>
+      <button id="" class="vetbutton logout1">
+        <img class="vetpic" src="./public/images/photo.jpg">
+        <strong>Eleanor Pena</strong>
+        <small>Veterinaria</small>
+        <img class="logicon" src="./public/images/log-out.svg"></button>
+    </div>
+    
+    <div id="main">
+    <div id="buttonbar" class="barsideclose">
+      <button id="openNav" class="buttonclosed buttonmain" onclick="Opensidebar()"><img src="./public/images/menu.svg"></button>
+      <button id="openNav" class="buttonclosed active" onclick="Opensidebar()"><img src="./public/images/search.svg"></button>
+      <button id="openNav" class="buttonclosed" onclick="Opensidebar()"><img src="./public/images/grid.svg"></button>
+      <button id="openNav" class="buttonclosed" onclick="Opensidebar()"><img src="./public/images/pet.svg"></button>
+      <button id="openNav" class="buttonclosed" onclick="Opensidebar()"><img src="./public/images/user.svg"></button>
+      <button id="openNav" class="buttonclosed" onclick="Opensidebar()"><img src="./public/images/vet.svg"></button>
+      <button id="openNav" class="buttonclosed" onclick="Opensidebar()"><img src="./public/images/settings.svg"></button>
+      <button id="" class="buttonclosed logout" onclick="Opensidebar()"><img src="./public/images/log-out.svg"></button>
+    </div>
+    <div id="h1container">
+      <h1>DashBoard</h1>
+    </div>
+    </div>
+    <script>
+      function Opensidebar() 
+      {
+        document.getElementById("h1container").style.marginLeft = "16em";
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("mySidebar").style.display = "flex";
+        document.getElementById("buttonbar").style.display = "none";
+      }
+      function w3_close() 
+      {
+        document.getElementById("h1container").style.marginLeft = "5em";
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("openNav").style.display = "inline-block";
+        document.getElementById("buttonbar").style.display = "flex";
+      }
+    </script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

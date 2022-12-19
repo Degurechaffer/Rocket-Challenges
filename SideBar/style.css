@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+:root {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  background-color: #DCE4E3;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+#mySidebar{
+  display: none;
+}
+.barside{
+  display: flex;
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background: #18C29C;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.barsideclose{
+  display: flex;
+  position: fixed;
+  width: 78px;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background: #18C29C;
+  flex-direction: column;
+  justify-content: flex-start
+}
+.buttonclosed{
+  border: none;
+  margin: 1em 0em 0em 1em;
+  background-color: #18C29C;
+  width: 50px;
+  height: 50px;
+}
+.logobutton{
+  border: none;
+  background-color: #18C29C;
+  width: 50px;
+  height: 50px;
+  padding-left: 9em;
+}
+.buttonopen{
+  border: none;
+  margin: 1em 0em 0em 1em;
+  background-color: #18C29C;
+  width: 222px;
+  height: 50.92px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #084236;
+}
+.buttonopen img{
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  vertical-align: middle;
+}
+.buttonmain{
+  padding-bottom: 1em;
+}
+.vetbutton{
+  border: none;
+  margin: 1em 0em 0em 1em;
+  background-color: #18C29C;
+  width: 222px;
+  height: 50.92px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #084236;
+}
+.logout1{
+  margin-top: auto;
+  margin-left: 0;
+  margin-right: 0;
+  width: 251px;
+  height: 60px;
+  left: -1px;
+  background-color: #8ED7C6;
+}
+.logout{
+  margin-top: auto;
+  margin-left: 0;
+  margin-right: 0;
+  width: 79px;
+  height: 60px;
+  background-color: rgba(220, 228, 227, 0.6);
+}
+.active{
+  background-color: #DCE4E3;
+  border-radius: 12px;
+}
+.logo{
+  margin: 1em 0em 0em 1em;
+}
+#h1container{
+  margin-left: 5em;
+}
+.vetpic{
+  width: 45px;
+  height: 45px;
+  left: 13px;
+  top: 716px;
+  border-radius: 12px;
+}
+strong{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #084236;
+  position: absolute;
+  left: 3.6em;
+  top: 38em;
+}
+small{
+  position: absolute;
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #084236;
+  bottom: 1em;
+  left: 4.5em;
+}
+.logicon{
+  position: absolute;
+  left: 14em;
+}
+.animate-left{
+  animation:animateleft 0.4s
+}
+@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
